@@ -27,6 +27,6 @@ Users can generate secure random passwords, choose the password length, and copy
 - onclick events
 
 - # UI
-- ## Screenshot
+
 
 ![Password Generator Screenshot](Interface.PNG)
