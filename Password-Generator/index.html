@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>Generate a<span> random password</span></h1>
+        <p>Never use an insecure passsword again</p>
+        <label for="length-input"
+          >Password length:
+          <input type="number" id="length-input-el" value="8" min="8" max="20"
+        /></label>
+        <button onclick="passwordGenerator()">Generate Passwords</button>
+      </div>
+      <div class="line"></div>
+      <div class="passworddisplay">
+        <p
+          class="emptyfield"
+          id="firstpassword-el"
+          onclick="copyPassword(this)"
+        ></p>
+        <p
+          class="emptyfield"
+          id="secondpassword-el"
+          onclick="copyPassword(this)"
+        ></p>
+      </div>
+      <p class="footer">Click a password to copy it to clipboard!</p>
+    </div>
+
+    <script src="source.js"></script>
+  </body>
+</html>
