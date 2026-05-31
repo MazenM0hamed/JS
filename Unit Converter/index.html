@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Metric/Imperial Unit Conversion</h2>
+        <input id="input-el" type="text" inputmode="numeric" pattern="[0-9]*" />
+        <button id="convert-btn">Convert</button>
+      </div>
+      <div class="unit-results">
+        <div class="design">
+          <h3>Length (Meter/Feet)</h3>
+          <p id="length-el"></p>
+        </div>
+        <div class="design">
+          <h3>Volume (Liters/Gallons)</h3>
+          <p id="volume-el"></p>
+        </div>
+        <div class="design">
+          <h3>Mass (Kilograms/Pounds)</h3>
+          <p id="mass-el"></p>
+        </div>
+      </div>
+    </div>
+    <script src="src.js"></script>
+  </body>
+</html>
