@@ -18,3 +18,16 @@ Features include:
 - Dynamic content replacement
 - Personalized message using user input
 
+## 🎯 Learning Objectives
+
+This project was built to practice:
+
+- Selecting DOM elements
+- Adding and removing classes
+- Working with events
+- Handling forms
+- Using `preventDefault()`
+- Reading form data with `FormData`
+- Updating the DOM dynamically
+- Using `setTimeout()`
+- Creating interactive user experiences
