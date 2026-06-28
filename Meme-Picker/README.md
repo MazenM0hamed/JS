@@ -25,3 +25,13 @@ Users can:
 - 📱 Responsive and simple user interface
 
 ---
+## ⚙️ How It Works
+
+1. The application loads cat meme data from `data.js`.
+2. It extracts all available emotions and generates radio buttons dynamically.
+3. The user selects an emotion.
+4. Optionally enables the **Animated GIFs only** filter.
+5. Clicking **Get Image**:
+   - Filters the available cat memes.
+   - Picks one randomly.
+   - Displays it inside a modal.
