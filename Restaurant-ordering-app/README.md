@@ -29,6 +29,11 @@ Some improvements I would like to add in future versions:
 - 🔗 Connect the application to a backend API for real data handling
   
 ## 📸 Preview
+<div align="center">
+  <img src="./images/ui.PNG" width="30%">
+  <img src="./images/ui2.PNG" width="30%">
+  <img src="./images/ui3.PNG" width="30%">
+</div>
 
-![Jimmy's Dinner Screenshot](./images/ui.PNG)
+
 
