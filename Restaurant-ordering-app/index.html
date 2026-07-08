@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,300;1,300&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h3>Jimmy's dinner</h3>
+        <p>The best burgers and pizza in town</p>
+      </div>
+    </header>
+    <main>
+      <div id="feed">
+        <!-- Items for ordering -->
+      </div>
+
+      <div id="order-container">
+        <!-- Orders Here !!! -->
+      </div>
+<div class="modal-overlay" id="modal-overlay">
+      <section class="modal" id="modal">
+        <div class="close-modal-btn-container">
+          <button class="modal-close-btn" id="modal-close-btn">
+            X
+          </button>
+        </div>
+        <div class="modal-inner" id="modal-inner">
+            <h2>Enter Card Details</h2>
+          <form>
+            
+            <input
+              type="text"
+              name="username"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="number"
+              name="cardnumber"
+              placeholder="Enter your card"
+              required
+            />
+            <input type="number" name="ccvnum" placeholder="Enter your CCV" />
+            <div id="modal-btn">
+              <button type="submit" class="order-completion" id="pay-btn">
+                pay
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+</div>
+    </main>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
