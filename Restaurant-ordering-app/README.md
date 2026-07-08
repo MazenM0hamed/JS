@@ -29,5 +29,5 @@ Some improvements I would like to add in future versions:
 - 🔗 Connect the application to a backend API for real data handling
   
 ## 📸 Preview
-<img src="./ui.png" width="600">
+<img src="./images/ui.png" width="600">
 
