@@ -30,5 +30,5 @@ Some improvements I would like to add in future versions:
   
 ## 📸 Preview
 
-![Jimmy's Dinner Screenshot](./images/ui.png)
+![Jimmy's Dinner Screenshot](./images/ui.PNG)
 
