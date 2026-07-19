@@ -30,9 +30,9 @@ Possible improvements:
 ---
 
 ## 📸 Preview
-
-- Desktop version
 ![Color Scheme Generator Preview](./desktop-version.PNG)
+- Desktop version
 
-- Mobile version
 ![Color Scheme Generator Preview](./mobile-version.PNG)
+- Mobile version
+
