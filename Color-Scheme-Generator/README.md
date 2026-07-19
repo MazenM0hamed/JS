@@ -1,19 +1,38 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🎨 Color Scheme Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A responsive color palette generator built with **HTML, CSS, and JavaScript**.  
+Users can choose a seed color, select a color harmony mode, and generate a beautiful color scheme using the **The Color API**.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## ✨ Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- 🎨 Select a custom seed color using a color picker
+- 🌈 Generate color schemes based on different color relationships
+- 📋 Display generated colors with their HEX values
+- 📱 Fully responsive design for desktop and mobile devices
+- ⚡ Uses Fetch API to retrieve dynamic color palettes
 
-Happy Coding!
+## API
+API Documentation:
+https://www.thecolorapi.com/docs
+
+---
+
+## 🔮 Future Improvements
+
+Possible improvements:
+
+- Add a copy-to-clipboard button for HEX values
+- Add loading animations while fetching colors
+- Save favorite color palettes
+- Add dark/light theme support
+- Allow exporting palettes as images
+
+---
+
+## 📸 Preview
+
+Desktop version
+![Color Scheme Generator Preview](./desktop-version.PNG)
+
+Mobile version
+![Color Scheme Generator Preview](./mobile-version.PNG)
