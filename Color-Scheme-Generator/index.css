@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+}
+
+#seed-color,
+#color-selection,
+#get-color-btn {
+    height: 35px;
+}
+
+#seed-color {
+    width: 50px;
+    padding: 0;
+    border: none;
+    flex-shrink: 0;
+}
+
+#color-selection {
+    flex: 1;
+    min-width: 0;
+    border: 1px solid #9CA3AF;
+    border-radius: 5px;
+    background: transparent;
+}
+
+#get-color-btn {
+    padding: 0 1.5rem;
+    border: 1px solid #9CA3AF;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+/* Colors */
+#color-list {
+    display: flex;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.box-color {
+    flex: 1;
+    text-align: center;
+}
+
+.color {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #seed-color,
+    #color-selection,
+    #get-color-btn {
+        width: 100%;
+    }
+    #color-selection{
+        padding: 0.5em;
+        text-align: center;
+    }
+    #color-list {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .color {
+        width: 100%;
+        height: 150px;
+    }
+}
