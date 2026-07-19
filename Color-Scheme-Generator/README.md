@@ -31,8 +31,8 @@ Possible improvements:
 
 ## 📸 Preview
 
-Desktop version
+- Desktop version
 ![Color Scheme Generator Preview](./desktop-version.PNG)
 
-Mobile version
+- Mobile version
 ![Color Scheme Generator Preview](./mobile-version.PNG)
