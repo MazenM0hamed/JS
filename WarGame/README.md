@@ -1,19 +1,66 @@
-# Getting Started
-Install the dependencies and run the project
+# 🃏 Game of War
+
+A simple browser-based implementation of the classic **War** card game built with **HTML**, **CSS**, and **JavaScript**. The game uses the Deck of Cards API to create and shuffle a deck, draw cards, compare their values, and keep score until all cards have been played.
+
+---
+
+## Features
+
+- 🎴 Create a brand new shuffled deck
+- 🂠 Draw two cards at a time
+- 🤖 Computer vs Player
+- 🏆 Automatic winner detection
+- 📊 Live score tracking
+- 📦 Remaining card counter
+- 🚫 Draw button disables when the deck is empty
+- 🎉 Final game winner announcement
+
+---
+## API Used
+
+### Deck of Cards API
+
+This project uses the Scrimba proxy for the Deck of Cards API.
+
+Create a shuffled deck:
+
 ```
-npm install
-npm start
+GET /deck/new/shuffle/
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Draw cards:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```
+GET /deck/{deck_id}/draw/?count=2
+```
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Documentation:
 
-Happy Coding!
+https://deckofcardsapi.com/
+
+---
+## Future Improvements
+
+- Restart game without refreshing the page
+- Add animations when cards are drawn
+- Display suit and card value alongside images
+- Track total wins across multiple games
+- Add sound effects
+- Improve responsive layout for mobile devices
+- Add card flip animation
+- Add loading state while fetching cards
+
+---
+## UI Preview
+
+### 1. New Deck
+
+![New Deck](/UI1.PNG)
+
+### 2. During Gameplay
+
+![Gameplay](/UI2.PNG)
+
+### 3. Game Over
+
+![Game Over](/UI3.PNG)
