@@ -55,12 +55,12 @@ https://deckofcardsapi.com/
 
 ### 1. New Deck
 
-![New Deck](/UI1.PNG)
+![New Deck](UI1.PNG)
 
 ### 2. During Gameplay
 
-![Gameplay](/UI2.PNG)
+![Gameplay](UI2.PNG)
 
 ### 3. Game Over
 
-![Game Over](/UI3.PNG)
+![Game Over](UI3.PNG)
