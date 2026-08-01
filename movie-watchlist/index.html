@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse movies and build your own watchlist by adding the movies you want to watch."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Find your film</h1>
+        <h3><a href="myWatchList.html">My Watchlist</a></h3>
+      </div>
+    </header>
+    <div class="search-container">
+      <div class="search-bar">
+        <div class="input-wrapper">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            name="search"
+            placeholder="Search for a movie "
+            id="search-input"
+          />
+        </div>
+
+        <button id="search-btn">Search</button>
+      </div>
+    </div>
+    <div class="explore" id="explore">
+      <i class="fa-solid fa-film"></i>
+      <h1>Start Exploring</h1>
+    </div>
+    <div id="movies">
+
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
